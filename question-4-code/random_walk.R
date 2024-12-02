@@ -4,7 +4,10 @@
 library(ggplot2)
 library(gridExtra)
 
-random_walk  <- function (n_steps) {
+random_walk  <- function (n_steps, seed = 880088) {
+  
+  #note that it is important to set the seed inside the function instead of outside, as we want the output to be the same for every function call
+  set.seed(seed)
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   
@@ -53,3 +56,4 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   ylab("y-coordinate")
 
 grid.arrange(plot1, plot2, ncol=2)
+
