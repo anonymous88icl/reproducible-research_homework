@@ -168,7 +168,10 @@ $$
 and
 
 $$
-\log(\alpha) = 7.0748 \\
+\log(\alpha) = 7.0748
+$$
+
+$$
 \alpha = \exp(7.0748) = 1181.807
 $$
 
@@ -209,11 +212,15 @@ We will use the formula
 
 $$
 V = \alpha{L^{\beta}}
-$$ With the obtained estimates:
+$$ 
+
+With the obtained estimates:
 
 $$
 V = 1181.807\cdot{300^{1.5152}} = 6697006
-$$ Rounding to 3 significant digits gives us
+$$ 
+
+Rounding to 3 significant digits gives us
 
 $$
 V = 6.70\cdot{10^6} \textit{   }nm^3
