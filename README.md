@@ -220,10 +220,22 @@ $$
 V = 1181.807\cdot{300^{1.5152}} = 6697006
 $$ 
 
+
+
 Rounding to 3 significant digits gives us
 
 $$
 V = 6.70\cdot{10^6} \textit{   }nm^3
 $$
+
+# Version Control
+
+The following code helped me record all the versions and so that researchers who want to reproduce the project know the version of programs used:
+
+```r
+sink(file = "package-versions.txt")
+sessionInfo()
+sink()
+```
 
 ------------------------------------------------------------------------
