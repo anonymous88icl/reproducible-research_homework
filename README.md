@@ -43,7 +43,7 @@ can’t guarantee complete randomness. Hence, the general principle to
 generate these pseudorandom numbers is to start with an initial seed,
 which we can either fix or set as some function of time (to make it more
 random). Then, we apply some complex mathematical process with no simple
-pattern to generate a sequence of numbers that seam to be random.
+pattern to generate a sequence of numbers that seem to be random.
 
 Hence, if we fix the seed, the outputs will still be close to random,
 but it will be the same every time we re-initialize the random function.
